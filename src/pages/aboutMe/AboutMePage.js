@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-
+import CVBtn from './CVBtn'
 import styled from 'styled-components'
 import ButtonComponent from './ButtonComponent'
 const AboutMePage = () => {
@@ -36,7 +36,8 @@ font-size: larger;
 `
 
   return (
-    <Wrapper>
+    <div id='aboutMePage'>
+<Wrapper>
         <AboutMe>About Me</AboutMe>
         <AboutMeP>i’m Niv ,a passionate full-stack developer.</AboutMeP>
         <AboutMeP>
@@ -46,13 +47,17 @@ font-size: larger;
         <AboutMeP>Finally , I could use my logical side to code and my creative side to design .</AboutMeP>
         <AboutMeP>These days my time is spent coding , designing , learning and researching .Out of the office you’ll find me playing chess , solving a Rubik's cube , and listening to music</AboutMeP>
 
-        <ButtonComponent
+        <CVBtn
             txt="Download CV"
         />
-        <ButtonComponent
+        <a href="https://wa.link/35vlg3"><ButtonComponent
              txt="  Contact Me"
-        />
+        /></a>
+
+        
     </Wrapper>
+    </div>
+    
   )
 }
 

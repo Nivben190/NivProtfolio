@@ -69,7 +69,7 @@ const sendEmail = (e) => {
   };
 
   return (
-    <ContactDiv>
+    <ContactDiv id='ContactMe'>
         <FormConatct id="contact-form" ref={form} onSubmit={sendEmail}>
         <Header>Contact me .</Header>
       <Desc>I'm available to work full-time . Contact me :</Desc>

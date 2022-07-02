@@ -20,7 +20,7 @@ const ProjectsPage = () => {
      margin-top: 20px;
      `
   return (
-    <div style={{"background":"#191919","marginTop":"200px","height":"600px"}}>
+    <div id='Projects' style={{"background":"#191919","marginTop":"200px","height":"600px"}}>
     <PageHeader>My Latest Projects</PageHeader>
     <PageP>See full projects cases on GitHub<br></br>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import file from '/Users/nivbenaviv/Desktop/NivBenAvivProtfolio/myprotfolio/src/pages/aboutMe/Niv_Ben Aviv_Resume..pdf'
 
 const ButtonComponent = (props) => {
     const Button = styled.button`
@@ -20,8 +21,10 @@ const ButtonComponent = (props) => {
 `;
 
   return (
-    
-    <Button value={props.value} onClick={props.onClick}>{props.txt}</Button>
+    <a href={file} download="NivBenAvivProtfolio.pdf"> <Button value={props.value} onClick={props.onClick}>{props.txt}</Button>
+
+     </a>
+
   )
 }
 

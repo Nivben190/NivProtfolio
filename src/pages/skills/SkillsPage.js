@@ -29,7 +29,7 @@ const SkillsPage = () => {
 
     
   return (
-    <div>
+    <div id='skillsPage'>
     <SkillsHeader >Skills</SkillsHeader>
 <SkillsP>I enjoy turning complex problems into simple and beautiful code .</SkillsP>
 <Grid

@@ -99,7 +99,7 @@ const WhoIam = () => {
     wrapper="h2"
      />
 <Linkedin bgColor="white" url="https://www.linkedin.com/in/niv-ben-aviv-b37b871b4/" />
-<Github bgColor="white" url="https://github.com/Nivben22" />
+<Github bgColor="white" url="https://github.com/Nivben190?tab=repositories" />
 
 </WhoIamDiv>
   )

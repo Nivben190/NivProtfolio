@@ -20,7 +20,7 @@ const HomePage = () => {
   float: right;
   `
   return (
-    <div>
+    <div id='home'>
         <NavbarComponent/>
           <MainDiv>
             <ImgDiv>
