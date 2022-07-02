@@ -1,0 +1,36 @@
+:root
+{
+  --colorWhite: white;
+
+}
+
+
+body {
+  /* background-image: url("../public/Assets/home-bg.jpeg"); */
+  margin: 0;
+  background: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-toggler .navbar-toggler-icon {
+color: white;
+}
+
+/*#region Navbarstyled*/
+.navLink a
+{
+  text-transform: uppercase;
+  margin: 10px;
+  color: var(--colorWhite);
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: end;
+}
+.navLink a:hover
+{
+  color: var(--colorWhite);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+/* endregion Navbarstyled */
