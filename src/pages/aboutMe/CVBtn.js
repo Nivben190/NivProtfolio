@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-// import file from '/Users/nivbenaviv/Desktop/NivBenAvivProtfolio/myprotfolio/src/Niv_Ben Aviv_Resume..pdf'
-
 const ButtonComponent = (props) => {
     const Button = styled.button`
   background-color:#f9004d;
@@ -21,7 +19,7 @@ const ButtonComponent = (props) => {
 `;
 
   return (
-    <a href={props.pdf} download="NivBenAvivProtfolio.pdf"> <Button value={props.value} onClick={props.onClick}>{props.txt}</Button>
+    <a href="https://drive.google.com/file/d/1HOifURgBtB73dn4dUuMXNGuq481owSxH/preview"  download="NivBenAvivProtfolio.pdf"> <Button value={props.value} onClick={props.onClick}>{props.txt}</Button>
 
      </a>
 
