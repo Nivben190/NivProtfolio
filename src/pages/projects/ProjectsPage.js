@@ -48,7 +48,7 @@ Just drop me a line !</PageP>
   justifyContent="center"
   container item xs={6} md={6} lg={4}  >
     <ProjectCard
-           href="https://github.com/Nivben22/LibaryProjectMVVM"
+           href="https://github.com/Nivben190/Storage-Managment"
     src="http://www.moving.bg/blog/wp-content/uploads/huge-storage-space.jpg"
          header="Storage Managment"
          desc="Data Stractures in C# And MVVM"
@@ -59,7 +59,7 @@ Just drop me a line !</PageP>
   justifyContent="center"
   container item xs={6} md={6} lg={4} >
     <ProjectCard
-           href="https://github.com/Nivben22/LibaryProjectMVVM"
+           href="https://github.com/Nivben190/MemoriesApp"
      src="https://t4.ftcdn.net/jpg/02/85/56/59/360_F_285565962_BBU1kR0YcSvhfq52rfs2aIi4dqG26zc7.jpg"
          header="Memories App"
          desc="Front to Back With MERN Stack-Memories App"
