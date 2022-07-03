@@ -4,7 +4,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import file from '/Users/nivbenaviv/Desktop/NivBenAvivProtfolio/myprotfolio/src/Niv_Ben Aviv_Resume..pdf'
 import ContactMePage from './pages/contactMe/ContactMePage'
 import { AboutMePage, HomePage, ProjectsPage, SkillsPage } from './pages/pages'
 const App = () => {
@@ -12,14 +11,9 @@ const App = () => {
 
     <div>
       <HomePage />
-      <AboutMePage 
-          pdf ={file}
-      />
+      <AboutMePage  />
       <SkillsPage />
-      <ProjectsPage 
-     
-
-      />
+      <ProjectsPage />
       <ContactMePage />
     </div>
   

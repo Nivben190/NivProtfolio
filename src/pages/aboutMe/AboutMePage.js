@@ -49,7 +49,6 @@ font-size: larger;
         <AboutMeP>These days my time is spent coding , designing , learning and researching .Out of the office you’ll find me playing chess , solving a Rubik's cube , and listening to music</AboutMeP>
 
         <CVBtn
-            pdf ={props.pdf}
             txt="Download CV"
         />
         <a href="https://wa.link/35vlg3"><ButtonComponent
