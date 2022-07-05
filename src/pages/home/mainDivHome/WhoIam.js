@@ -13,7 +13,9 @@ const WhoIam = () => {
   @media screen and (max-width:900px) {
      width: 100%;
      text-align: center;
-     margin: 0;
+     margin-bottom: 200px;
+     /* margin-buttom: 0; */
+
   }
 
   `
@@ -25,6 +27,7 @@ const WhoIam = () => {
    @media screen and (max-width:900px) {
      width: 100%;
      margin-left: 90px;
+     margin-top: 300px;
      font-size: 20px;
      text-align: center;
   }
