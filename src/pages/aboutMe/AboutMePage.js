@@ -21,6 +21,10 @@ color: white;
 font-size: 70px;
 font-weight: bold;
 text-align: left;
+@media screen and (max-width:900px){
+    text-align: center;
+    font-size:50px;
+     }
 `
 
 const AboutMeP=styled.p`
