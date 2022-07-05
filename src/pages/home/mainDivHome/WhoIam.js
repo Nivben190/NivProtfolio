@@ -77,27 +77,21 @@ const WhoIam = () => {
     margin-top: 200px;
     @media screen and (max-width:900px) {
     
-margin-left: 80px;
-margin-right: auto;
+      visibility: collapse;
+
 
   }
-  @media screen and (max-width:400px) {
-  
-  visibility: collapse;
-}
+
   `
   const Github =styled(SocialIcon)`
   margin-left: 30px;
   margin-top: 200px;
   @media screen and (max-width:900px) {
   
-    margin-left: 30px;
-margin-right: auto;
+    visibility: collapse;
+
    }
-   @media screen and (max-width:400px) {
-  
-        visibility: collapse;
- }
+ 
 
 `
   return (
