@@ -2,6 +2,7 @@ import React from 'react'
 import Typical from 'react-typical'
 import { SocialIcon } from 'react-social-icons';
 import styled from 'styled-components'
+import { Grid ,Box} from '@mui/material';
 const WhoIam = () => {
   const WhoIamDiv=styled.div`
    margin-left: 0;
@@ -67,26 +68,30 @@ const WhoIam = () => {
      margin-left: 90px;
      font-size: 30px;
      text-align: center;
+     
   }
 
   `
   const Linkedin =styled(SocialIcon)`
     margin-left: 60px;
-    margin-top: 30px;
+    margin-top: 200px;
     @media screen and (max-width:900px) {
-     width: 70%;
-     margin-left: 20px;
-     text-align: center;
+    
+margin-left: 80px;
+margin-right: auto;
+
   }
   `
   const Github =styled(SocialIcon)`
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 200px;
   @media screen and (max-width:900px) {
-   width: 70%;
-   text-align: center;
-   float: left;
-}
+  
+    margin-left: 30px;
+margin-right: auto;
+   /* text-align: center; */
+   /* transform: translateX(-50%); */
+   }
 `
   return (
 
@@ -99,8 +104,27 @@ const WhoIam = () => {
     loop={Infinity}
     wrapper="h2"
      />
+    <Grid
+     container  
+  alignItems="center"
+  justifyContent="center"
+     >
+     <Box 
+  alignItems="center"
+  justifyContent="center"
+  container item  xs={6} md={6}  >
 <Linkedin bgColor="white" url="https://www.linkedin.com/in/niv-ben-aviv-b37b871b4/" />
+
+  </Box>
+  <Box 
+  alignItems="center"
+  justifyContent="center"
+  container item  xs={6} md={6} lg={6}  >
 <Github bgColor="white" url="https://github.com/Nivben190?tab=repositories" />
+
+  </Box>
+
+     </Grid>
 
 </WhoIamDiv>
   )

@@ -19,7 +19,7 @@ const ButtonComponent = (props) => {
   @media screen and (max-width:900px)
    {
     width: 200px;
-    font-size: 14px;
+    font-size: 15px;
     float: left;
   }
 `;
