@@ -18,7 +18,7 @@ const ButtonComponent = (props) => {
   }
   @media screen and (max-width:900px)
    {
-    width: 130px;
+    width: 80px;
     font-size: 13px;
     float: left;
     font-weight: bold;
