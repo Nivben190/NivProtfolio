@@ -47,6 +47,7 @@ const WhoIam = () => {
      margin-left: 90px;
      font-size: 30px;
      text-align: center;
+     
   }
   `
   const SecondtH1 =styled.h1`
