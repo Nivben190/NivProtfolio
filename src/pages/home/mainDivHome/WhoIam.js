@@ -74,8 +74,8 @@ const WhoIam = () => {
     margin-left: 60px;
     margin-top: 30px;
     @media screen and (max-width:900px) {
-     width: 100%;
-     margin-left: 120px;
+     width: 70%;
+     margin-left: 20px;
      text-align: center;
   }
   `
@@ -83,8 +83,9 @@ const WhoIam = () => {
   margin-left: 30px;
   margin-top: 30px;
   @media screen and (max-width:900px) {
-   width: 100%;
+   width: 70%;
    text-align: center;
+   float: left;
 }
 `
   return (

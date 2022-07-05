@@ -16,6 +16,12 @@ const ButtonComponent = (props) => {
     background-color:white;
     color: black;
   }
+  @media screen and (max-width:900px)
+   {
+    width: 200px;
+    font-size: 14px;
+    float: left;
+  }
 `;
 
   return (
