@@ -22,6 +22,12 @@ const ButtonComponent = (props) => {
     font-size: 15px;
     float: left;
   }
+  @media screen and (max-width:500px)
+   {
+    width: 100px;
+    font-size: 12px;
+    float: left;
+  }
 `;
 
   return (

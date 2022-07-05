@@ -81,6 +81,10 @@ margin-left: 80px;
 margin-right: auto;
 
   }
+  @media screen and (max-width:400px) {
+  
+  visibility: collapse;
+}
   `
   const Github =styled(SocialIcon)`
   margin-left: 30px;
@@ -89,9 +93,12 @@ margin-right: auto;
   
     margin-left: 30px;
 margin-right: auto;
-   /* text-align: center; */
-   /* transform: translateX(-50%); */
    }
+   @media screen and (max-width:400px) {
+  
+        visibility: collapse;
+ }
+
 `
   return (
 
