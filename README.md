@@ -3,7 +3,7 @@
 My Personal Protfolio built with React. 
 
 ## 📋 Features
-  *Contact Me With Email.js: send me email for a job !
+  * Contact Me With Email.js: send me email for a job !
   * resume : Look At my Full Resume  on click 
   * Projects : just click on one of my project and you will redirect to the project github repo , there is many more projects there...!
   
