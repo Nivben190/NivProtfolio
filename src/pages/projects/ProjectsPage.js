@@ -32,15 +32,15 @@ Just drop me a line !</PageP>
   alignItems="center"
   justifyContent="center"
      >
-  <Box 
+ <Box 
   alignItems="center"
   justifyContent="center"
   container item  xs={6} md={6} lg={4} >
     <ProjectCard
-       href="https://github.com/Nivben22/LibaryProjectMVVM"
-         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScPs4ZpHd6viHqcHeKeMDL6u4KrwnRP6JKOw&usqp=CAU"
-         header="Libary Managment"
-         desc="MVVM In C# With Mongo DB DataBase "
+       href="https://github.com/InbalBu/EcommerceApp"
+         src="https://static.doofinder.com/main-files/uploads/2020/05/gestion-tienda-fisica-y-online.jpg"
+         header="EcommerceApp"
+         desc="EcommerceApp With React, Mongo , Node.js And Sanity CMS"
      />
   </Box>
   <Box 
@@ -48,10 +48,10 @@ Just drop me a line !</PageP>
   justifyContent="center"
   container item xs={6} md={6} lg={4}  >
     <ProjectCard
-           href="https://github.com/Nivben190/Storage-Managment"
-    src="http://www.moving.bg/blog/wp-content/uploads/huge-storage-space.jpg"
-         header="Storage Managment"
-         desc="Data Stractures in C# And MVVM"
+           href="https://github.com/Nivben190/Reacipes-Website-"
+    src="https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg"
+         header="Recipe Website"
+         desc="My Own Recipe Website, with designed home page, Api - spoonacular, Frontend: React"
      />
   </Box>
   <Box 
