@@ -38,7 +38,7 @@ Just drop me a line !</PageP>
   container item  xs={6} md={6} lg={4} >
     <ProjectCard
        href="https://github.com/InbalBu/EcommerceApp"
-         src="https://static.doofinder.com/main-files/uploads/2020/05/gestion-tienda-fisica-y-online.jpg"
+         src="https://t3.ftcdn.net/jpg/02/34/09/24/360_F_234092401_jv2JZDvES6zocvLxNyVxoMDOGvRzg4rG.jpg"
          header="EcommerceApp"
          desc="EcommerceApp With React, Mongo , Node.js And Sanity CMS"
      />
@@ -49,9 +49,9 @@ Just drop me a line !</PageP>
   container item xs={6} md={6} lg={4}  >
     <ProjectCard
            href="https://github.com/Nivben190/Reacipes-Website-"
-    src="https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg"
+    src="https://c4.wallpaperflare.com/wallpaper/426/939/618/eggs-food-dishes-black-background-wallpaper-preview.jpg"
          header="Recipe Website"
-         desc="My Own Recipe Website, with designed home page, Api - spoonacular, Frontend: React"
+         desc="My Own Recipe Website, Api - spoonacular, Frontend: React"
      />
   </Box>
   <Box 
