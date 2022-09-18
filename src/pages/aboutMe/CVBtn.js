@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import pdf from '../../Niv_Ben Aviv_Resume..pdf'
 const ButtonComponent = (props) => {
     const Button = styled.button`
   background-color:#f9004d;
@@ -27,7 +28,7 @@ const ButtonComponent = (props) => {
 `;
 
   return (
-    <a href="https://drive.google.com/file/d/1HOifURgBtB73dn4dUuMXNGuq481owSxH/preview"  download="NivBenAvivProtfolio.pdf"> <Button value={props.value} onClick={props.onClick}>{props.txt}</Button>
+    <a href={pdf}  download="NivBenAvivProtfolio.pdf"> <Button value={props.value} onClick={props.onClick}>{props.txt}</Button>
 
      </a>
 
